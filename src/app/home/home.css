@@ -47,3 +47,8 @@ button {
     width: 70%;
   }
 }
+
+button {
+  background: gray;
+  color: white;
+}
