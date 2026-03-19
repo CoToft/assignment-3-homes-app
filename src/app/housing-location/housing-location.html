@@ -1,9 +1,9 @@
 <section class="listing">
   <img
     class="listing-photo"
-    src="https://angular.dev/assets/images/tutorials/common/bernard-hermant-CLKGGwIBTaY-unsplash.jpg"
-    alt="Exterior photo of house"
+    [src]="housingLocation.photo"
+    [alt]="'Exterior photo of ' + housingLocation.name"
   />
-  <h2 class="listing-heading">Acme Fresh Start Housing</h2>
-  <p class="listing-location">Chicago, IL</p>
+  <h2 class="listing-heading">{{ housingLocation.name }}</h2>
+  <p class="listing-location">{{ housingLocation.city }}, {{ housingLocation.state }}</p>
 </section>
