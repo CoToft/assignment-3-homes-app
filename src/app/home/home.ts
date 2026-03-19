@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { HousingLocation as HousingLocationComponent } from '../housing-location/housing-location';
+import { HousingLocationComponent } from '../housing-location/housing-location';
 import { HousingLocation } from '../housinglocation';
 
 @Component({
